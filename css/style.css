@@ -1,3 +1,5 @@
+/*  Reset */
+
 * {
   padding: 0px;
   margin: 0px;
@@ -12,4 +14,62 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  background-color: red;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+header img {
+  margin: auto 1rem;
+  height: 60px;
+  background-color: green;
+}
+
+header ul {
+  background-color: yellow;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+header ul li {
+  background-color: orange;
+  padding: 2rem;
+}
+
+/* search */
+.filter {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.filter p {
+  text-align: center;
+  align-self: center;
+  margin: 0.5rem;
+}
+
+.filter-btn {
+  /* padding: ; */
+  margin: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  border: var(--background) solid 1px;
+  border-radius: 100px;
+}
+
+.icon-color {
+  padding: 1rem;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 100px;
 }
