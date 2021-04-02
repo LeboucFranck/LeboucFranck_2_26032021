@@ -181,6 +181,8 @@ main {
   object-fit: cover;
 }
 
+/* Popular */
+
 .popular .container {
   display: flex;
   flex-flow: column wrap;
@@ -211,5 +213,31 @@ main {
   border-top-left-radius: 10px;
   width: 8rem;
   min-height: 100%;
+  object-fit: cover;
+}
+
+/* Activity */
+
+.activity .container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.activity .card {
+  border-radius: 23px;
+  border: var(--background) solid 3px;
+}
+.activity .card-2 img {
+  max-height: 250px;
+}
+.activity .card-3 img {
+  max-height: 150px;
+}
+.activity .container img {
+  height: 400px;
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   object-fit: cover;
 }
