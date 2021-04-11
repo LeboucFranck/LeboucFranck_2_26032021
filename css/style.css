@@ -50,9 +50,10 @@ ul {
 
 .card:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
-
+.card {
+  transition: 0.8s;
+}
 .blue {
   color: var(--primary);
 }
@@ -90,6 +91,7 @@ header a:hover {
   border-top: solid 2px var(--primary);
   margin-top: -2px;
 }
+
 header ul li {
   padding: 2rem;
 }
@@ -145,7 +147,7 @@ header ul li {
 }
 .filter-btn:hover {
   cursor: pointer;
-  transition: ease-in-out 2s;
+  /* transition: ease-in-out 0.8s; */
   background: var(--secondary);
   color: var(--primary);
   border: var(--primary) 2px solid;
@@ -167,6 +169,8 @@ header ul li {
 .filter-btn {
   margin: 1rem;
   display: flex;
+  transition: ease-in-out 0.5s;
+
   flex-flow: row nowrap;
   border: var(--background) solid 2px;
   border-radius: 100px;
