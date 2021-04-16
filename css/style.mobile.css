@@ -1,0 +1,104 @@
+:root {
+  --primary: #0065fc;
+  --secondary: #deebff;
+  --background: #f2f2f2;
+}
+body {
+  margin: 0;
+}
+header {
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+}
+
+.register li {
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+header img {
+  padding: 15px 0 0 15px;
+}
+header ul {
+  width: 100%;
+}
+header ul a {
+  width: 50%;
+  margin-bottom: 2px;
+}
+header ul a li {
+  border-bottom: 2px solid var(--background);
+
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+header ul a:hover {
+  border-top: none;
+  border-bottom: solid 2px var(--primary);
+}
+
+/* filter */
+
+.filter {
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.filter-btn {
+  margin: 0.5rem 0;
+}
+
+.search {
+  padding: 2rem 1.3rem;
+}
+
+.filter :nth-child(3) {
+  position: absolute;
+  right: 30px;
+  top: 322px;
+}
+
+.search .icon-search{
+  background-color: var(--primary);
+  color:white;
+  border-radius: 15px;
+}
+
+/* main */
+main {
+  padding: 0;
+  flex-flow: column;
+}
+
+.popular {
+  margin: 0;
+  order: -1;
+  border-radius: 0;
+}
+
+#accomodation {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: white;
+}
+
+#accomodation .container {
+  flex-flow: column;
+  align-items: center;
+}
+
+#accomodation .container a .card {
+  border: solid 2px grey;
+  max-width: 90%;
+}
+
+#accomodation .container a{
+  display: flex;
+  justify-content: center;
+}

@@ -36,11 +36,19 @@ ul {
   padding-left: 0.5rem;
 }
 .icon-color {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
   padding: 1rem;
   background-color: var(--secondary);
   color: var(--primary);
   border-radius: 100px;
+  margin: -0.135rem;
 }
+
 .icon-blue {
   color: var(--primary);
   padding: 0.25rem 0.5rem;
@@ -133,7 +141,9 @@ header ul li {
 .search ::placeholder {
   color: black;
 }
-
+.icon-search{
+  display: none;
+}
 .search form button {
   background-color: var(--primary);
   color: white;
@@ -147,15 +157,14 @@ header ul li {
 }
 .filter-btn:hover {
   cursor: pointer;
-  /* transition: ease-in-out 0.8s; */
-  background: var(--secondary);
-  color: var(--primary);
-  border: var(--primary) 2px solid;
+  background: var(--primary);
+  color: white;
+  /* border: var(--primary) 2px solid; */
 }
 
 .filter {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
 }
 
@@ -170,9 +179,8 @@ header ul li {
   margin: 1rem;
   display: flex;
   transition: ease-in-out 0.5s;
-
   flex-flow: row nowrap;
-  border: var(--background) solid 2px;
+  border: #f2f2f2 solid 2px;
   border-radius: 100px;
 }
 
@@ -282,7 +290,7 @@ main {
 
 #activity .container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 #activity .card-1 {
