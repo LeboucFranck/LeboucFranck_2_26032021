@@ -63,12 +63,17 @@ header ul a:hover {
   top: 322px;
 }
 
-.search .icon-search{
+.search .icon-search {
   background-color: var(--primary);
-  color:white;
+  color: white;
   border-radius: 15px;
 }
-
+.search form button {
+  display: none;
+}
+.search form .icon-search {
+  display: inline-block;
+}
 /* main */
 main {
   padding: 0;
@@ -98,7 +103,13 @@ main {
   max-width: 90%;
 }
 
-#accomodation .container a{
+#accomodation .container a {
   display: flex;
   justify-content: center;
+}
+
+/* footer */
+
+footer {
+  flex-flow: column;
 }

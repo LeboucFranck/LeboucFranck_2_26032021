@@ -56,6 +56,10 @@ ul {
   border: var(--background) solid 2px;
 }
 
+.search .filter .fas {
+  display: flex;
+}
+
 .card:hover {
   transform: scale(1.1);
 }
@@ -141,7 +145,7 @@ header ul li {
 .search ::placeholder {
   color: black;
 }
-.icon-search{
+.search form .icon-search {
   display: none;
 }
 .search form button {
