@@ -289,6 +289,14 @@ main {
 
 /* Popular */
 
+.popular .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title i {
+  font-size: 1.5rem;
+}
 .popular .container {
   display: flex;
   flex-flow: column wrap;
