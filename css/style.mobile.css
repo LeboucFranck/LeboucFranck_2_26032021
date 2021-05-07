@@ -62,7 +62,10 @@ header ul li:hover {
 .search {
   padding: 1rem 1rem;
 }
-
+.search form button {
+  border-radius: 15px;
+  margin-left: -15px;
+}
 .search button > i {
   display: inline-block;
 }
@@ -83,7 +86,7 @@ main {
   order: -1;
   border-radius: 0;
 }
-.popular .container a .card {
+.popular .container .card {
   max-width: 100%;
 }
 #accomodation {
@@ -98,9 +101,8 @@ main {
   align-items: center;
 }
 
-#accomodation .container a .card {
+#accomodation .container .card {
   box-shadow: 0px 0px 10px 1px rgb(236, 223, 223);
-
   max-width: 100%;
 }
 #activity {
@@ -128,12 +130,12 @@ main {
 }
 /* footer */
 
-footer {
+.wrap {
   padding: 1.5rem 1.2rem;
   margin-top: 2rem;
   flex-flow: column;
 }
 
-footer .container {
+.wrap .container {
   padding-top: 1.5rem;
 }
