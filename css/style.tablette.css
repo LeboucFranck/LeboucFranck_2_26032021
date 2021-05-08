@@ -2,13 +2,28 @@
   padding-bottom: 2rem;
 }
 
+.filter {
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+header,
+.search {
+  padding-left: 1rem;
+}
+
+.filter-btn {
+  margin-left: 0;
+}
+
 /* main */
 main {
-  padding: 0;
   flex-flow: column;
+  padding: 0;
 }
 
 .popular {
+  flex-flow: row;
   margin: 0;
   padding: 2rem;
   order: -1;
@@ -29,7 +44,7 @@ main {
   align-items: center;
 }
 
-#accomodation .container a .card {
+#accomodation .container a {
   box-shadow: 0px 0px 10px 1px rgb(236, 223, 223);
 
   max-width: 100%;

@@ -13,12 +13,11 @@ header {
   width: 100%;
 }
 
-.register {
+.register a {
   padding: 0;
   position: absolute;
   top: 30px;
   right: 20px;
-  /* width: 0; */
   text-align: right;
   border-bottom: none;
 }
@@ -26,32 +25,29 @@ header {
 header img {
   padding: 15px 0 0 15px;
 }
-header ul {
-  width: 100%;
-}
-header ul li {
-  width: 50%;
+
+header ul li a {
+  min-width: 50vw;
   margin-bottom: 2px;
+  padding: 1rem;
 }
-header ul li {
+header ul li a {
   border-bottom: 2px solid var(--background);
-
   text-align: center;
-  padding: 1rem 2rem;
 }
 
-header ul li:hover {
+header ul li a:hover {
   border-top: none;
-  border-bottom: solid 2px var(--primary);
+  border-bottom: solid 3px var(--primary);
 }
 .register:hover {
   border-bottom: none;
 }
 /* filter */
 
-.filter > p {
-  padding-right: 10rem;
-  /* padding-bottom: 0.8rem; */
+.filter {
+  flex-flow: column;
+  align-items: flex-start;
 }
 .filter-btn {
   margin: 0.5rem 0.9rem 0.5rem 0;
