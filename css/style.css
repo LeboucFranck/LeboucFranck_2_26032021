@@ -201,7 +201,6 @@ header ul li a {
   align-self: center;
   font-weight: bold;
   padding-right: 1rem;
-  border: 1px;
 }
 .filter-btn p {
   padding: 0 1rem;
@@ -272,7 +271,7 @@ main {
   border: white solid 5px;
   min-height: 190px;
   max-height: 360px;
-  max-width: 250px;
+  width: 250px;
   font-size: 0.85rem;
 }
 #accomodation .container .card h3,

@@ -84,6 +84,7 @@ main {
 }
 .popular .container .card {
   max-width: 100%;
+  width: 100%;
 }
 #accomodation {
   margin: 0;
