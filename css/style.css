@@ -197,7 +197,7 @@ header ul li a {
   display: flex;
   flex-flow: row wrap;
 }
-.container p {
+.filter .container p {
   align-self: center;
   font-weight: bold;
   padding-right: 1rem;
