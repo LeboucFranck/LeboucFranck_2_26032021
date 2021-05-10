@@ -201,6 +201,7 @@ header ul li a {
   align-self: center;
   font-weight: bold;
   padding-right: 1rem;
+  border: 1px;
 }
 .filter-btn p {
   padding: 0 1rem;
